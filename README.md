@@ -37,6 +37,12 @@
 
 ## 4. 使用
 
+#### 4.0 下载项目
+
+```shell
+git clone git@github.com:chuans/egg-react-mobx-ts-ssr.git
+```
+
 #### 4.1 安装依赖
 
 ```bash
