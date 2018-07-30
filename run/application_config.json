@@ -1,0 +1,662 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "overwrite": true,
+      "signed": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function anonymous>"
+    },
+    "security": {
+      "domainWhiteList": [
+        "http://localhost:9000",
+        "http://127.0.0.1:9000",
+        "http://10.252.174.183:9000",
+        "http://localhost:9001",
+        "http://127.0.0.1:9001",
+        "http://10.252.174.183:9001",
+        "http://localhost:9002",
+        "http://127.0.0.1:9002",
+        "http://10.252.174.183:9002"
+      ],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": true,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "matching": "<Function anonymous>"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      }
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-session/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-jsonp/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-onerror/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-i18n/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-watcher/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-development/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-schedule/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-logrotator/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-static/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-mysql/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-cors/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-webpack/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-webpack-react/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/locales",
+        "/Users/chuans/Documents/chuans/chasing_the_wind/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "multipart": {
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null
+    },
+    "development": {
+      "watchDirs": [
+        "build"
+      ],
+      "ignoreDirs": [
+        "app/web",
+        "public",
+        "config"
+      ],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "/Users/chuans/Documents/chuans/chasing_the_wind/logs/chasing_the_wind/egg-schedule.log"
+      }
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/chuans/Documents/chuans/chasing_the_wind/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000,
+      "maxAge": 0,
+      "files": "<LRU>"
+    },
+    "view": {
+      "root": [
+        "/Users/chuans/Documents/chuans/chasing_the_wind/app/view"
+      ],
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {
+        ".js": "react",
+        ".jsx": "react"
+      }
+    },
+    "reactssr": {
+      "doctype": "<!doctype html>",
+      "layout": "/Users/chuans/Documents/chuans/chasing_the_wind/app/view/layout.js",
+      "manifest": "/Users/chuans/Documents/chuans/chasing_the_wind/config/manifest.json",
+      "injectHeadRegex": "/(<\\/head>)/i",
+      "injectBodyRegex": "/(<\\/body>)/i",
+      "injectCss": true,
+      "injectJs": true,
+      "crossorigin": false,
+      "injectRes": [],
+      "mergeLocals": true,
+      "fallbackToClient": true,
+      "afterRender": "<Function afterRender>"
+    },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "115.28.176.152",
+        "port": "3307",
+        "user": "root",
+        "password": "<String len: 6>",
+        "database": "chasing_the_wind"
+      }
+    },
+    "cors": {
+      "origin": "<Function corsOrigin>"
+    },
+    "webpack": {
+      "port": 9000,
+      "proxy": {
+        "host": "http://127.0.0.1:9000",
+        "match": "/^\\/public\\//"
+      },
+      "webpackConfigList": []
+    },
+    "webpackreact": {},
+    "env": "local",
+    "name": "chasing_the_wind",
+    "keys": "<String len: 16>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "chasing_the_wind",
+      "version": "2.0.1",
+      "description": "追风项目",
+      "scripts": {
+        "tsc": "tsc -p tsconfig.json",
+        "tsc:w": "tsc -p tsconfig.json -w",
+        "clean": "rm -rf app/**.js && rm -rf config/**.js && rm -rf index.js",
+        "build": "cross-env npm run tsc && easywebpack build prod",
+        "build:test": "cross-env npm run tsc && easywebpack build test",
+        "build:prod": "cross-env npm run tsc && easywebpack build prod",
+        "dev": "cross-env npm run tsc:w & WORKERS=1 node --max_old_space_size=8196 index.js",
+        "start": "cross-env NODE_ENV=production EGG_SERVER_ENV=prod node index.js",
+        "start:test": "cross-env EGG_SERVER_ENV=test node index.js",
+        "start:prod": "cross-env EGG_SERVER_ENV=prod node index.js",
+        "kill-port": "easy kill",
+        "lint": "tslint --project . -c tslint.json",
+        "fix": "tslint --fix --project . -c tslint.json",
+        "ii": "npm install --registry https://registry.npm.taobao.org"
+      },
+      "dependencies": {
+        "babel-plugin-transform-decorators": "^6.24.1",
+        "babel-plugin-transform-decorators-legacy": "^1.3.5",
+        "babel-preset-react-native-stage-0": "^1.0.1",
+        "cross-env": "^5.0.0",
+        "egg": "^2.1.0",
+        "egg-cors": "^2.0.0",
+        "egg-logger": "^1.5.0",
+        "egg-mysql": "^3.0.0",
+        "egg-validate": "^1.0.0",
+        "egg-view-react-ssr": "^2.1.0",
+        "extend": "\\x7e3.0.0",
+        "history": "^4.7.2",
+        "lodash": "^4.17.4",
+        "mobx": "^5.0.3",
+        "mobx-react": "^5.2.3",
+        "mockjs": "^1.0.1-beta3",
+        "moment": "^2.17.1",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "react-redux": "^5.0.6",
+        "react-router": "^4.2.0",
+        "react-router-config": "^1.0.0-beta.4",
+        "react-router-dom": "^4.2.2",
+        "react-router-redux": "^4.0.8",
+        "redux": "^3.7.2",
+        "reflect-metadata": "^0.1.12"
+      },
+      "devDependencies": {
+        "@types/react": "^16.0.34",
+        "@types/react-dom": "^16.0.3",
+        "autod-egg": "^1.0.0",
+        "autoprefixer": "^7.1.4",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-import": "^1.4.0",
+        "babel-plugin-syntax-dynamic-import": "^6.18.0",
+        "babel-plugin-transform-object-assign": "^6.22.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-react": "^6.24.1",
+        "easywebpack-cli": "^3.8.0",
+        "easywebpack-react": "^4.0.0",
+        "egg-webpack": "^4.0.0",
+        "egg-webpack-react": "^2.0.0",
+        "eslint": "^4.6.1",
+        "eslint-config-egg": "^5.1.1",
+        "eslint-plugin-react": "^7.1.0",
+        "history": "^4.7.2",
+        "html-webpack-plugin": "^2.30.1",
+        "imagemin-webpack-plugin": "^1.5.2",
+        "ip": "^1.1.5",
+        "less": "^2.7.2",
+        "less-loader": "^4.0.5",
+        "sass-loader": "^6.0.6",
+        "stylus": "^0.54.5",
+        "stylus-loader": "^3.0.1",
+        "ts-loader": "^4.0.0",
+        "tslint": "^5.9.1",
+        "tslint-loader": "^3.5.3",
+        "typescript": "^2.6.2",
+        "uglifyjs-webpack-plugin": "^1.1.2",
+        "vconsole": "^3.0.0"
+      },
+      "engines": {
+        "node": ">=6.0.0"
+      },
+      "ci": {
+        "version": "6, 7, 8"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hubcarl/egg-react-typescript-boilerplate.git"
+      },
+      "author": "hubcarl@126.com",
+      "license": "MIT",
+      "homepage": "https://github.com/hubcarl/egg-react-typescript-boilerplate"
+    },
+    "baseDir": "/Users/chuans/Documents/chuans/chasing_the_wind",
+    "HOME": "/Users/chuans",
+    "rundir": "/Users/chuans/Documents/chuans/chasing_the_wind/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 4286>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/chuans/Documents/chuans/chasing_the_wind/logs",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "DEBUG",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "chasing_the_wind-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheMaxLength": 1000,
+      "dnsCacheMaxAge": 10000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "cors",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n"
+    ],
+    "workerStartTimeout": 600000,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "middleware": [],
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security",
+      "version": "2.2.3"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-i18n",
+      "version": "2.0.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-watcher",
+      "version": "3.0.0"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart",
+      "version": "2.0.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-development",
+      "version": "2.3.1"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-schedule",
+      "version": "3.3.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-logrotator",
+      "version": "3.0.3"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-static",
+      "version": "2.1.1"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view",
+      "version": "2.1.0"
+    },
+    "reactssr": {
+      "enable": true,
+      "package": "egg-view-react-ssr",
+      "name": "reactssr",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr",
+      "version": "2.3.1"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-mysql",
+      "version": "3.0.0"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.local.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-cors",
+      "version": "2.1.0"
+    },
+    "webpack": {
+      "enable": true,
+      "package": "egg-webpack",
+      "name": "webpack",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.local.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-webpack",
+      "version": "4.1.2"
+    },
+    "webpackreact": {
+      "enable": true,
+      "package": "egg-webpack-react",
+      "name": "webpackreact",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.local.js",
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-webpack-react",
+      "version": "2.0.2"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "react-native-stage-0/decorator-support"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "react-hot-loader/babel",
+    "transform-object-assign",
+    "syntax-dynamic-import",
+    "transform-object-rest-spread"
+  ],
+  "comments": false
+}

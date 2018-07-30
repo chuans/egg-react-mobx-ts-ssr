@@ -1,0 +1,370 @@
+{
+  "siteFile": {
+    "/favicon.ico": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js",
+    "dir": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js",
+    "encoding": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "env": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "level": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js",
+    "dir": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js",
+    "maxAge": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.local.js",
+    "dynamic": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-static/config/config.default.js"
+  },
+  "keys": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js",
+  "middleware": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js",
+  "mysql": {
+    "client": {
+      "host": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js",
+      "port": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js",
+      "user": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js",
+      "password": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js",
+      "database": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js"
+    },
+    "app": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.default.js",
+    "default": {
+      "database": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-mysql/config/config.default.js"
+    },
+    "agent": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-mysql/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.local.js",
+    "ignoreDirs": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.local.js",
+    "fastReady": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-development/config/config.default.js"
+  },
+  "reactssr": {
+    "injectCss": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.local.js",
+    "doctype": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js",
+    "layout": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js",
+    "manifest": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectHeadRegex": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectBodyRegex": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectJs": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js",
+    "crossorigin": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectRes": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js",
+    "mergeLocals": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js",
+    "fallbackToClient": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js",
+    "afterRender": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/chuans/Documents/chuans/chasing_the_wind/config/config.local.js",
+    "protocolWhiteList": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view/config/config.default.js",
+    "mapping": {
+      ".js": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js",
+      ".jsx": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr/config/config.default.js"
+    }
+  },
+  "cors": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-cors/config/config.default.js",
+  "webpack": {
+    "port": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-webpack/config/config.default.js",
+    "proxy": {
+      "host": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-webpack/config/config.default.js",
+      "match": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-webpack/config/config.default.js"
+    },
+    "webpackConfigList": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-webpack/config/config.default.js"
+  },
+  "webpackreact": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-webpack-react/config/config.default.js",
+  "env": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+  "name": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "version": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "description": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "tsc": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "tsc:w": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "clean": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "build": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "build:test": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "build:prod": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "dev": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "start": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "start:test": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "start:prod": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "kill-port": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "lint": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "fix": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "ii": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "babel-plugin-transform-decorators": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-decorators-legacy": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "babel-preset-react-native-stage-0": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "egg": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "egg-view-react-ssr": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "extend": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "history": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "mobx": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "mobx-react": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "moment": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "react": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "react-redux": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "react-router-config": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "react-router-redux": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "redux": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "reflect-metadata": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/react": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "@types/react-dom": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "babel-plugin-add-module-exports": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "babel-plugin-import": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "babel-plugin-syntax-dynamic-import": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-object-assign": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-object-rest-spread": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "babel-preset-env": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "babel-preset-react": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "easywebpack-cli": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "easywebpack-react": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "egg-webpack": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "egg-webpack-react": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "eslint-plugin-react": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "history": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "imagemin-webpack-plugin": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "ip": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "less": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "stylus": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "stylus-loader": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "ts-loader": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "tslint-loader": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "vconsole": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "url": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "license": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "homepage": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "strict": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "depth": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "logging": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "port": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/config.default.js"
+}

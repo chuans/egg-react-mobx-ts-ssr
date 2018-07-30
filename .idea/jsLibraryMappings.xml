@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{@types/egg.js, @types/es6-collections, @types/es6-shim, @types/koa, @types/mobx-apollo, @types/mobx-devtools-mst, @types/nunjucks, @types/react, @types/typescript-deferred, es6-promisify-DefinitelyTyped, express-DefinitelyTyped, node-DefinitelyTyped}" />
+  </component>
+</project>

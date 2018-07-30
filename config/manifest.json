@@ -1,0 +1,49 @@
+{
+  "index.css": "/public/css/index.css",
+  "index.js": "/public/js/index.js",
+  "index.css.map": "/public/css/index.css.map",
+  "index.js.map": "/public/js/index.js.map",
+  "layout.js": "/public/js/layout.js",
+  "layout.js.map": "/public/js/layout.js.map",
+  "spa/ssr.css": "/public/css/spa/ssr.css",
+  "spa/ssr.js": "/public/js/spa/ssr.js",
+  "spa/ssr.css.map": "/public/css/spa/ssr.css.map",
+  "spa/ssr.js.map": "/public/js/spa/ssr.js.map",
+  "states.js": "/public/js/states.js",
+  "states.js.map": "/public/js/states.js.map",
+  "deps": {
+    "index.js": {
+      "js": [
+        "/public/js/index.js"
+      ],
+      "css": [
+        "/public/css/index.css"
+      ]
+    },
+    "states.js": {
+      "js": [
+        "/public/js/states.js"
+      ],
+      "css": []
+    },
+    "layout.js": {
+      "js": [
+        "/public/js/layout.js"
+      ],
+      "css": []
+    },
+    "spa/ssr.js": {
+      "js": [
+        "/public/js/spa/ssr.js"
+      ],
+      "css": [
+        "/public/css/spa/ssr.css"
+      ]
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}
