@@ -24,7 +24,6 @@ module.exports = {
     },
     dll: ['react', 'react-dom'],
     loaders: {
-        typescript: true,
         less:true
     },
     module: {

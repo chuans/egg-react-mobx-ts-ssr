@@ -11,9 +11,12 @@
   "spa/ssr.js.map": "/public/js/spa/ssr.js.map",
   "states.js": "/public/js/states.js",
   "states.js.map": "/public/js/states.js.map",
+  "js/vendor.js": "/public/js/vendor.js",
+  "vendor.js": "/public/js/vendor.js",
   "deps": {
     "index.js": {
       "js": [
+        "/public/js/vendor.js",
         "/public/js/index.js"
       ],
       "css": [
@@ -22,18 +25,21 @@
     },
     "states.js": {
       "js": [
+        "/public/js/vendor.js",
         "/public/js/states.js"
       ],
       "css": []
     },
     "layout.js": {
       "js": [
+        "/public/js/vendor.js",
         "/public/js/layout.js"
       ],
       "css": []
     },
     "spa/ssr.js": {
       "js": [
+        "/public/js/vendor.js",
         "/public/js/spa/ssr.js"
       ],
       "css": [

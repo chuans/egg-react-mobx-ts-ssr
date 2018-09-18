@@ -66,7 +66,8 @@
       "ssrf": {
         "ipBlackList": null,
         "checkAddress": null
-      }
+      },
+      "_protocolWhiteListSet": "<Set>"
     },
     "helper": {
       "shtml": {}
@@ -82,7 +83,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -94,8 +95,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -125,7 +126,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/chuans/Documents/chuans/chasing_the_wind/logs/chasing_the_wind/egg-schedule.log"
+        "file": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/logs/chasing_the_wind/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -139,7 +140,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/chuans/Documents/chuans/chasing_the_wind/public",
+      "dir": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -147,7 +148,7 @@
       "maxAge": 0
     },
     "view": {
-      "root": "/Users/chuans/Documents/chuans/chasing_the_wind/app/view",
+      "root": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -158,8 +159,8 @@
     },
     "reactssr": {
       "doctype": "<!doctype html>",
-      "layout": "/Users/chuans/Documents/chuans/chasing_the_wind/app/view/layout.js",
-      "manifest": "/Users/chuans/Documents/chuans/chasing_the_wind/config/manifest.json",
+      "layout": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/app/view/layout.js",
+      "manifest": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/config/manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": true,
@@ -299,9 +300,9 @@
       "license": "MIT",
       "homepage": "https://github.com/hubcarl/egg-react-typescript-boilerplate"
     },
-    "baseDir": "/Users/chuans/Documents/chuans/chasing_the_wind",
+    "baseDir": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr",
     "HOME": "/Users/chuans",
-    "rundir": "/Users/chuans/Documents/chuans/chasing_the_wind/run",
+    "rundir": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -331,7 +332,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/chuans/Documents/chuans/chasing_the_wind/logs",
+      "dir": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/logs",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -351,8 +352,8 @@
     },
     "httpclient": {
       "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
       "dnsCacheMaxLength": 1000,
-      "dnsCacheMaxAge": 10000,
       "request": {
         "timeout": 5000
       },
@@ -406,8 +407,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-session",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -419,9 +420,9 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-security",
-      "version": "2.2.3"
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-security",
+      "version": "2.4.0"
     },
     "jsonp": {
       "enable": true,
@@ -432,8 +433,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-jsonp",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -445,8 +446,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-onerror",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -456,8 +457,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-i18n",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -467,8 +468,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-watcher",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -478,9 +479,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-multipart",
-      "version": "2.0.0"
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-multipart",
+      "version": "2.1.0"
     },
     "development": {
       "enable": true,
@@ -493,9 +494,9 @@
       "env": [
         "local"
       ],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-development",
-      "version": "2.3.1"
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-development",
+      "version": "2.4.1"
     },
     "schedule": {
       "enable": true,
@@ -504,9 +505,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-schedule",
-      "version": "3.3.0"
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-schedule",
+      "version": "3.4.0"
     },
     "logrotator": {
       "enable": true,
@@ -517,8 +518,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-logrotator",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -528,8 +529,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-static",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -539,8 +540,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-view",
       "version": "2.1.0"
     },
     "reactssr": {
@@ -550,8 +551,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-view-react-ssr",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-view-react-ssr",
       "version": "2.3.1"
     },
     "mysql": {
@@ -561,8 +562,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-mysql",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/config/plugin.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-mysql",
       "version": "3.0.0"
     },
     "cors": {
@@ -572,8 +573,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.local.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-cors",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/config/plugin.local.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-cors",
       "version": "2.1.0"
     },
     "webpack": {
@@ -585,9 +586,9 @@
       "env": [
         "local"
       ],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.local.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-webpack",
-      "version": "4.1.2"
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/config/plugin.local.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-webpack",
+      "version": "4.3.1"
     },
     "webpackreact": {
       "enable": true,
@@ -598,8 +599,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/chuans/Documents/chuans/chasing_the_wind/config/plugin.local.js",
-      "path": "/Users/chuans/Documents/chuans/chasing_the_wind/node_modules/egg-webpack-react",
+      "from": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/config/plugin.local.js",
+      "path": "/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-webpack-react",
       "version": "2.0.2"
     }
   }

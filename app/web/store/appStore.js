@@ -4,4 +4,3 @@ export default {
     name: '',
     url: ''
 };
-//# sourceMappingURL=appStore.js.map

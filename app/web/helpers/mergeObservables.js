@@ -1,9 +1,11 @@
-import { isObservableArray, isObservableMap } from 'mobx';
+import {isObservableArray, isObservableMap} from 'mobx';
+
 /**
  * 合并mobx映射关系
  * @param target   合并的对象
  * @param source   被合并的资源
  */
+
 export default (target, source) => {
     // 当被合并的资源部存在的时候 直接返回主目标
     if (!source) {
@@ -18,12 +20,13 @@ export default (target, source) => {
                 return target[key].merge(source);
             }
             target[key] = source;
-        }
-        else {
+        } else {
             target[key] = source;
         }
+
         return target;
     });
+
     return target;
+
 };
-//# sourceMappingURL=mergeObservables.js.map

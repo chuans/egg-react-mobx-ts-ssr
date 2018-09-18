@@ -1,17 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+/**
+ * Created with File
+ * Author: Chuans
+ * Github: https://github.com/chuans
+ * Date: 2018/9/18
+ * Time: 下午4:38
+ */
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
 import { BrowserRouter, StaticRouter } from 'react-router-dom';
-import { matchRoutes } from 'react-router-config';
+import { matchRoutes } from 'react-router-config'
 import Layout from '../framework/layout/layout';
 import routes from '../router/routes';
 import Routers from '../router/routers';
 import { createClientState, createServerState } from './states';
 import 'reflect-metadata';
+
 const clientRender = () => {
     const states = createClientState();
-    ReactDOM.render(React.createElement("div", null,
-        React.createElement(BrowserRouter, null,
-            React.createElement(Routers, { states: states }))), document.getElementById('app'));
+    ReactDOM.render(
+        <div>
+            <BrowserRouter>
+                <Routers states={states}/>
+            </BrowserRouter>
+        </div>,
+        document.getElementById('app')
+    );
 };
 const serverRender = (context, options) => {
     const { url } = context.state;
@@ -19,7 +32,7 @@ const serverRender = (context, options) => {
     const branch = matchRoutes(routes, url);
     const promises = branch.map(({ route }) => {
         const fetch = route.component.fetch;
-        return fetch instanceof Function ? fetch() : Promise.resolve(null);
+        return fetch instanceof Function ? fetch() : Promise.resolve(null)
     });
     return Promise.all(promises).then(data => {
         const initState = context.state;
@@ -27,11 +40,15 @@ const serverRender = (context, options) => {
             Object.assign(initState, item);
         });
         context.state = Object.assign({}, context.state, initState);
-        return () => (React.createElement(Layout, null,
-            React.createElement("div", null,
-                React.createElement(StaticRouter, { location: url, context: {} },
-                    React.createElement(Routers, { states: state })))));
+        return () => (
+            <Layout>
+                <div>
+                    <StaticRouter location={url} context={{}}>
+                        <Routers states={state}/>
+                    </StaticRouter>
+                </div>
+            </Layout>
+        )
     });
 };
 export default EASY_ENV_IS_NODE ? serverRender : clientRender();
-//# sourceMappingURL=index.js.map

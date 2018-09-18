@@ -1,0 +1,85 @@
+2018-09-18 16:43:01,677 INFO 6552 [egg:logger] init all loggers with options: {"dir":"/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"chasing_the_wind-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-18 16:43:01,707 INFO 6552 [egg-schedule]: register schedule /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-18 16:43:01,707 INFO 6552 [egg-schedule]: register schedule /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-18 16:43:01,709 INFO 6552 [egg-mysql] connecting root@115.28.176.152:3307/chasing_the_wind
+2018-09-18 16:43:01,867 INFO 6552 [egg-static] starting static serve /public/ -> /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/public
+2018-09-18 16:43:01,870 INFO 6552 [egg-security] use csrf middleware
+2018-09-18 16:43:01,871 INFO 6552 [egg-security] use methodnoallow middleware
+2018-09-18 16:43:01,872 INFO 6552 [egg-security] use noopen middleware
+2018-09-18 16:43:01,873 INFO 6552 [egg-security] use nosniff middleware
+2018-09-18 16:43:01,874 INFO 6552 [egg-security] use xssProtection middleware
+2018-09-18 16:43:01,875 INFO 6552 [egg-security] use xframe middleware
+2018-09-18 16:43:01,876 INFO 6552 [egg-security] use dta middleware
+2018-09-18 16:43:01,876 INFO 6552 [egg-security] compose 7 middlewares into one security middleware
+2018-09-18 16:43:01,892 INFO 6552 [egg:core] dump config after load, 8ms
+2018-09-18 16:43:01,914 INFO 6552 [egg-watcher:app] watcher start success
+2018-09-18 16:43:02,240 INFO 6552 [egg-mysql] instance[0] status OK, rds currentTime: Tue Sep 18 2018 08:43:02 GMT+0800 (CST)
+2018-09-18 16:43:02,249 INFO 6552 [egg:core] dump config after ready, 7ms
+2018-09-18 16:44:11,493 INFO 6567 [egg:logger] init all loggers with options: {"dir":"/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"chasing_the_wind-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-18 16:44:11,522 INFO 6567 [egg-schedule]: register schedule /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-18 16:44:11,522 INFO 6567 [egg-schedule]: register schedule /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-18 16:44:11,524 INFO 6567 [egg-mysql] connecting root@115.28.176.152:3307/chasing_the_wind
+2018-09-18 16:44:11,651 INFO 6567 [egg-static] starting static serve /public/ -> /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/public
+2018-09-18 16:44:11,655 INFO 6567 [egg-security] use csrf middleware
+2018-09-18 16:44:11,656 INFO 6567 [egg-security] use methodnoallow middleware
+2018-09-18 16:44:11,656 INFO 6567 [egg-security] use noopen middleware
+2018-09-18 16:44:11,657 INFO 6567 [egg-security] use nosniff middleware
+2018-09-18 16:44:11,658 INFO 6567 [egg-security] use xssProtection middleware
+2018-09-18 16:44:11,659 INFO 6567 [egg-security] use xframe middleware
+2018-09-18 16:44:11,659 INFO 6567 [egg-security] use dta middleware
+2018-09-18 16:44:11,659 INFO 6567 [egg-security] compose 7 middlewares into one security middleware
+2018-09-18 16:44:11,672 INFO 6567 [egg:core] dump config after load, 6ms
+2018-09-18 16:44:11,696 INFO 6567 [egg-watcher:app] watcher start success
+2018-09-18 16:44:11,763 INFO 6567 [egg-mysql] instance[0] status OK, rds currentTime: Tue Sep 18 2018 08:44:11 GMT+0800 (CST)
+2018-09-18 16:44:11,772 INFO 6567 [egg:core] dump config after ready, 6ms
+2018-09-18 16:44:16,869 INFO 6572 [egg:logger] init all loggers with options: {"dir":"/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"chasing_the_wind-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-18 16:44:16,902 INFO 6572 [egg-schedule]: register schedule /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-18 16:44:16,902 INFO 6572 [egg-schedule]: register schedule /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-18 16:44:16,903 INFO 6572 [egg-mysql] connecting root@115.28.176.152:3307/chasing_the_wind
+2018-09-18 16:44:16,984 INFO 6572 [egg-static] starting static serve /public/ -> /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/public
+2018-09-18 16:44:16,986 INFO 6572 [egg-security] use csrf middleware
+2018-09-18 16:44:16,987 INFO 6572 [egg-security] use methodnoallow middleware
+2018-09-18 16:44:16,987 INFO 6572 [egg-security] use noopen middleware
+2018-09-18 16:44:16,988 INFO 6572 [egg-security] use nosniff middleware
+2018-09-18 16:44:16,988 INFO 6572 [egg-security] use xssProtection middleware
+2018-09-18 16:44:16,988 INFO 6572 [egg-security] use xframe middleware
+2018-09-18 16:44:16,989 INFO 6572 [egg-security] use dta middleware
+2018-09-18 16:44:16,989 INFO 6572 [egg-security] compose 7 middlewares into one security middleware
+2018-09-18 16:44:16,998 INFO 6572 [egg:core] dump config after load, 5ms
+2018-09-18 16:44:17,020 INFO 6572 [egg-watcher:app] watcher start success
+2018-09-18 16:44:17,081 INFO 6572 [egg-mysql] instance[0] status OK, rds currentTime: Tue Sep 18 2018 08:44:17 GMT+0800 (CST)
+2018-09-18 16:44:17,089 INFO 6572 [egg:core] dump config after ready, 5ms
+2018-09-18 16:44:18,961 INFO 6575 [egg:logger] init all loggers with options: {"dir":"/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"chasing_the_wind-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-18 16:44:19,017 INFO 6575 [egg-schedule]: register schedule /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-18 16:44:19,017 INFO 6575 [egg-schedule]: register schedule /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-18 16:44:19,019 INFO 6575 [egg-mysql] connecting root@115.28.176.152:3307/chasing_the_wind
+2018-09-18 16:44:19,118 INFO 6575 [egg-static] starting static serve /public/ -> /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/public
+2018-09-18 16:44:19,120 INFO 6575 [egg-security] use csrf middleware
+2018-09-18 16:44:19,121 INFO 6575 [egg-security] use methodnoallow middleware
+2018-09-18 16:44:19,121 INFO 6575 [egg-security] use noopen middleware
+2018-09-18 16:44:19,122 INFO 6575 [egg-security] use nosniff middleware
+2018-09-18 16:44:19,122 INFO 6575 [egg-security] use xssProtection middleware
+2018-09-18 16:44:19,122 INFO 6575 [egg-security] use xframe middleware
+2018-09-18 16:44:19,123 INFO 6575 [egg-security] use dta middleware
+2018-09-18 16:44:19,123 INFO 6575 [egg-security] compose 7 middlewares into one security middleware
+2018-09-18 16:44:19,136 INFO 6575 [egg:core] dump config after load, 7ms
+2018-09-18 16:44:19,156 INFO 6575 [egg-watcher:app] watcher start success
+2018-09-18 16:44:19,224 INFO 6575 [egg-mysql] instance[0] status OK, rds currentTime: Tue Sep 18 2018 08:44:19 GMT+0800 (CST)
+2018-09-18 16:44:19,232 INFO 6575 [egg:core] dump config after ready, 5ms
+2018-09-18 16:44:19,874 INFO 6577 [egg:logger] init all loggers with options: {"dir":"/Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"chasing_the_wind-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-18 16:44:19,906 INFO 6577 [egg-schedule]: register schedule /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-18 16:44:19,906 INFO 6577 [egg-schedule]: register schedule /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-18 16:44:19,907 INFO 6577 [egg-mysql] connecting root@115.28.176.152:3307/chasing_the_wind
+2018-09-18 16:44:20,010 INFO 6577 [egg-static] starting static serve /public/ -> /Users/chuans/Documents/git/git@github.com:chuans/egg-react-mobx-ts-ssr/public
+2018-09-18 16:44:20,012 INFO 6577 [egg-security] use csrf middleware
+2018-09-18 16:44:20,013 INFO 6577 [egg-security] use methodnoallow middleware
+2018-09-18 16:44:20,014 INFO 6577 [egg-security] use noopen middleware
+2018-09-18 16:44:20,014 INFO 6577 [egg-security] use nosniff middleware
+2018-09-18 16:44:20,015 INFO 6577 [egg-security] use xssProtection middleware
+2018-09-18 16:44:20,015 INFO 6577 [egg-security] use xframe middleware
+2018-09-18 16:44:20,016 INFO 6577 [egg-security] use dta middleware
+2018-09-18 16:44:20,016 INFO 6577 [egg-security] compose 7 middlewares into one security middleware
+2018-09-18 16:44:20,028 INFO 6577 [egg:core] dump config after load, 6ms
+2018-09-18 16:44:20,054 INFO 6577 [egg-watcher:app] watcher start success
+2018-09-18 16:44:20,107 INFO 6577 [egg-mysql] instance[0] status OK, rds currentTime: Tue Sep 18 2018 08:44:20 GMT+0800 (CST)
+2018-09-18 16:44:20,115 INFO 6577 [egg:core] dump config after ready, 5ms

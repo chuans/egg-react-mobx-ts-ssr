@@ -2,29 +2,36 @@ import React from 'react';
 import { Route } from 'react-router';
 import Home from '../page/home';
 import User from '../page/user';
+
 const NotFound = () => {
-    return (React.createElement(Route, { render: ({ staticContext }) => {
+    return (
+        <Route render={({ staticContext }) => {
             if (staticContext) {
                 staticContext.status = 404;
             }
-            return (React.createElement("div", null,
-                React.createElement("h1", null, "404 : Not Found")));
-        } }));
+            return (
+                <div>
+                    <h1>404 : Not Found</h1>
+                </div>
+            );
+        }}/>
+    );
 };
+
 export default [
     {
         path: '/',
         component: Home,
-        exact: true
+        exact:true
     },
     {
         path: '/user',
         component: User,
-        exact: true
+        exact:true
     },
     {
         path: '*',
         component: NotFound
     }
 ];
-//# sourceMappingURL=routes.js.map
+
