@@ -2,84 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa882f55-3a2d-437c-bf93-0ab27234ef6e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/spa.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/spa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/spa.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/spa.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/entry/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/entry/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/entry/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/entry/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/entry/states.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/entry/states.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/entry/states.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/entry/states.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/framework/layout/layout.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/framework/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/framework/layout/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/helpers/mergeObservables.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/helpers/mergeObservables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/helpers/mergeObservables.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/helpers/mergeObservables.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/index.td.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/index.td.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/index.td.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/interfaces/main.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/page/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/page/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/page/home/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/page/home/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/page/home/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/page/home/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/page/home/store.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/page/home/store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/page/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/page/user/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/page/user/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/page/user/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/router/routers.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/router/routers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/router/routers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/router/routes.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/router/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/router/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/store/appStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/store/appStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/store/appStore.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/store/appStore.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/agent_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/agent_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/agent_config_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/agent_config_meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/agent_timing_61458.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/application_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_config_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/application_config_meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61459.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61460.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61464.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61468.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61497.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61501.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61502.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61504.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61507.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61509.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61512.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61514.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61518.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61521.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61523.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61527.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61530.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61532.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61534.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61536.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61538.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61541.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61544.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61546.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61548.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61552.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61554.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61556.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61558.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61561.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61564.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61569.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61571.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61649.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_61652.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/router.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/router.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -183,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -286,7 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/index.ts" />
         <option value="$PROJECT_DIR$/client/index.tsx" />
         <option value="$PROJECT_DIR$/app/controller/home.ts" />
         <option value="$PROJECT_DIR$/typings/index.d.ts" />
@@ -337,6 +259,7 @@
         <option value="$PROJECT_DIR$/app/web/page/home/store.js" />
         <option value="$PROJECT_DIR$/app/web/page/home/index.js" />
         <option value="$PROJECT_DIR$/app/web/page/user/index.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -486,15 +409,16 @@
       <workItem from="1532004813967" duration="27000" />
       <workItem from="1532004985354" duration="53668000" />
       <workItem from="1532776036712" duration="1394000" />
-      <workItem from="1537259724577" duration="927000" />
+      <workItem from="1537259724577" duration="1191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74552000" />
+    <option name="totallyTimeSpent" value="74816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08174771" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -852,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>

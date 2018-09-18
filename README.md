@@ -27,12 +27,12 @@
 
 - 支持 Webpack DLL 自动化构建
 
- 
+
 
 ## 3. 依赖
 
 - [easywebpack-react](https://github.com/hubcarl/easywebpack)
-- [egg-webpack](https://github.com/hubcarl/egg-webpack) 
+- [egg-webpack](https://github.com/hubcarl/egg-webpack)
 - [egg-webpack-react](https://github.com/hubcarl/egg-webpack-react)
 
 ## 4. 使用
@@ -75,8 +75,6 @@ yarn run build
 3. 应用部署后，通过 yarn start` 启动应用
 
 ## 4. 存在问题
-
-在我修改了前端项目过后，编译ts需要手动编译，我使用的是webstrom的自动编译，如果前端不使用ts，使用js或者jsx可以直接修改文件后缀，并在入口webppack修改对应的入口文件名字。
 
 #### 注意：前端使用何种语言修改对项目没有任何影响
 
